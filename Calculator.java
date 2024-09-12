@@ -8,6 +8,10 @@ public class Calculator{
         return a - b;
     }
 
+    public static int multiply(int a, int b){
+        return a * b;
+    }
+
 
 
 
@@ -15,5 +19,6 @@ public class Calculator{
         System.out.println("BASIC CALCULATOR");
         System.out.println("Addition: " +add(5, 3));
         System.out.println("Subtraction: " +subtract(4, 2));
+        System.out.println("Multiplication: " +multiply(6, 2));
     }
 }
